@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Mohammed Mounir Mourad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="/css/styleReg.css" />
+    <style>
+      main img {
+        margin-top: 20%;
+        border-radius: 5px;
+      }
+
+      p {
+        margin-top: 5%;
+      }
+
+      span {
+        display: inline-block;
+        padding: 5px;
+      }
+    </style>
+    <title>Mi Account - Sign in</title>
+  </head>
+
+  <body>
+    <main>
+      <img src="images/icon.png" alt="" />
+      <p>
+        <span>Thanks for your registration</span> <br />
+        <span id="thanks"></span> <br />
+        <br />
+        <a href="login.html">
+          Please click here to sign in and go to the home page</a
+        >
+      </p>
+    </main>
+    <footer>
+      <p>
+        Copyright © 2020 Xiaomi. Clone Website by Mohammed Mounir Mourad. All
+        Rights Reserved
+      </p>
+    </footer>
+
+    <script>
+      var email = location.search.slice(1).split("&")[0].split("=")[1];
+      var modifiedEmail = email.replace(/%40/g, "@");
+
+      document.getElementById("thanks").innerHTML = modifiedEmail;
+    </script>
+  </body>
+</html>

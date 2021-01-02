@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, arial, "MI Lan Pro", "Hiragino Sans GB", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #757575;
+}
+
+main {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 850px;
+  height: 500px;
+}
+
+main img {
+  margin-left: 46%;
+}
+
+p {
+  text-align: center;
+}
+
+p span {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.register_title {
+  margin: 15px;
+  padding-top: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+form p {
+  text-align: left;
+  padding-left: 255px;
+  font-size: 1em;
+  color: rgb(37, 37, 37);
+}
+
+input {
+  margin: 15px;
+  border: 1px solid rgb(219, 219, 219);
+  width: 330px;
+  height: 42px;
+  padding-left: 5px;
+}
+
+input:hover {
+  cursor: pointer;
+  border: 1px solid #ff6700;
+}
+
+.submit {
+  font-size: 1em;
+  color: white;
+  background-color: #ff6700;
+  border: none;
+  width: 330px;
+  height: 42px;
+  margin-bottom: 40px;
+}
+
+.submit:hover {
+  border: 0px;
+  background-color: #ff936a;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+  font-size: 0.9em;
+}
+
+a:hover {
+  color: #ff6700;
+}
+
+.terms {
+  margin-top: 30px;
+  font-size: 14px;
+  color: rgb(133, 133, 133);
+}
+
+span {
+  font-weight: bold;
+  color: black;
+}
+
+footer p {
+  position: fixed;
+  bottom: 10px;
+  left: 30%;
+  font-size: 0.85em;
+}
