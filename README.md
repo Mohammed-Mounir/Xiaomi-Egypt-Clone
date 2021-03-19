@@ -1,3 +1,3 @@
-# ITI-Xiaomi-Clone
+# Xiaomi-Clone
 
-## ITI HTML&CSS Small Project
+A Small UI/UX Project using just HTML & CSS
